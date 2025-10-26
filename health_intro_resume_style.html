@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>武阿功 - 健康產業管理系自我介紹</title>
+<style>
+    :root{
+      --bg: #f6f8fa;
+      --card: #ffffff;
+      --muted: #6b7280;
+      --accent: #16a34a;
+      --accent2: #38bdf8;
+      --shadow: 0 6px 18px rgba(8,15,30,0.08);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background: linear-gradient(180deg, #e0f2fe 0%, var(--bg) 100%);
+      padding:32px;
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+    }
+    .container{
+      max-width:900px;
+      margin:0 auto;
+      display:grid;
+      grid-template-columns: 1fr 320px;
+      gap:24px;
+    }
+    .card{
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:var(--shadow);
+      padding:20px;
+    }
+    header.card{
+      grid-column:1 / -1;
+      display:flex;
+      align-items:center;
+      gap:20px;
+      background: linear-gradient(135deg, #86efac, #38bdf8);
+      color:white;
+    }
+    .avatar{
+      width:96px;height:96px;border-radius:12px;overflow:hidden;background:#fff;
+      flex-shrink:0;border:3px solid rgba(255,255,255,0.8);
+    }
+    .avatar img{
+      width:100%;height:100%;object-fit:cover;
+    }
+    h1{margin:0;font-size:20px}
+    .sub{color:#e2e8f0;font-size:13px;margin-top:6px}
+
+    .main{padding:16px 18px;display:flex;flex-direction:column;gap:18px}
+    section h2{margin:0 0 8px 0;font-size:15px;color:var(--accent)}
+    section p{font-size:14px;line-height:1.7;color:#334155}
+
+    .chip{display:inline-block;padding:6px 10px;border-radius:999px;background:#dcfce7;color:#166534;font-size:13px;margin:4px 6px 4px 0}
+
+    /* Books section */
+    .book-row{
+      display:flex;
+      justify-content:space-around;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:12px;
+    }
+    .book{
+      width:30%;
+      background:#f9fafb;
+      border-radius:10px;
+      text-align:center;
+      box-shadow:0 2px 8px rgba(0,0,0,0.05);
+      padding:8px;
+    }
+    .book img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+      border-radius:8px;
+      margin-bottom:6px;
+    }
+    .book strong{display:block;font-size:14px;color:#1e293b}
+    .book span{font-size:13px;color:#64748b}
+
+    .sidebar{padding:16px 18px;display:flex;flex-direction:column;gap:14px}
+    .contact p{margin:6px 0;font-size:13px}
+    .contact a{color:var(--accent2);text-decoration:none;font-weight:600}
+    .contact a:hover{text-decoration:underline}
+    .meta{font-size:13px;color:var(--muted)}
+
+    @media (max-width:880px){
+      .container{grid-template-columns:1fr}
+      header.card{flex-direction:column;align-items:flex-start}
+      .avatar{width:80px;height:80px}
+      .book{width:100%}
+    }
+</style>
+</head>
+<body>
+<div class="container">
+<header class="card">
+<div class="avatar"><img src="images/avt.jpg" alt="avatar"/></div>
+<div>
+<h1>武阿功</h1>
+<div class="sub">健康產業管理系 一年級學生｜國立範例大學</div>
+</div>
+</header>
+
+<main class="card main">
+<section>
+<h2>① 關於我</h2>
+<p>大家好，我是武阿功，目前就讀於健康產業管理系一年級。我對健康照護、長期照顧與智慧科技應用充滿興趣。希望能運用科技與管理的知識，幫助更多人擁有健康與快樂的生活。</p>
+</section>
+
+<section>
+<h2>② 為何選擇健康產業管理</h2>
+<p>我相信「健康是幸福的根本」。選擇這個科系，是因為我希望了解健康產業的運作模式，並參與改善高齡化社會的照護系統，透過科技與創意推動智慧健康服務。</p>
+</section>
+
+<section>
+<h2>③ 技能與興趣</h2>
+<div class="chip">健康管理</div>
+<div class="chip">資料分析</div>
+<div class="chip">人際溝通</div>
+<div class="chip">AI 健康應用</div>
+<div class="chip">志工活動</div>
+<p>平時喜歡參加健康推廣活動，也會閱讀與醫療創新、AI 健康有關的資訊。</p>
+</section>
+
+<section>
+<h2>④ 未來目標</h2>
+<p>未來希望能成為一位健康管理顧問或智慧照護專案人員，協助推動健康城市與智慧長照的發展，讓社會更有溫度。</p>
+</section>
+
+<section>
+<h2>⑤ 專業書籍推薦</h2>
+<p>這些書籍對於學習健康產業管理的同學非常有幫助：</p>
+<div class="book-row">
+  <div class="book">
+    <img src="images/anh1.jpg" alt="Healthcare Management">
+    <strong>Healthcare Management</strong>
+    <span>醫療管理與策略分析入門</span>
+  </div>
+  <div class="book">
+    <img src="images/anh2.jpg" alt="Smart Health Innovation">
+    <strong>Smart Health Innovation</strong>
+    <span>智慧健康與產業創新</span>
+  </div>
+  <div class="book">
+    <img src="images/anh3.webp" alt="Aging and Long-Term Care">
+    <strong>Aging and Long-Term Care</strong>
+    <span>高齡化社會與長照管理</span>
+  </div>
+</div>
+</section>
+</main>
+
+<aside class="card sidebar">
+<div class="contact">
+<h2>聯絡資訊</h2>
+<p><strong>學號：</strong> AU114011119</p>
+<p><strong>Email：</strong> youremail@example.com</p>
+<p><strong>Facebook：</strong> <a href="https://www.facebook.com/" target="_blank">facebook.com/yourprofile</a></p>
+<p><strong>Instagram：</strong> <a href="https://www.instagram.com/" target="_blank">@your_ig</a></p>
+<p><strong>Line：</strong> <a href="https://line.me/ti/p/" target="_blank">line.me/ti/p/yourID</a></p>
+</div>
+
+<div>
+<h2>語言能力</h2>
+<p class="meta">越南語（母語）、中文（良好）、英文（學校課程）</p>
+</div>
+</aside>
+</div>
+</body>
+</html>
